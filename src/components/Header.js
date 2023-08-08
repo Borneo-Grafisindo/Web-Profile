@@ -1,7 +1,7 @@
 function Header() {
   return (
     <header>
-      <video src="./video.mp4" loop autoPlay muted></video>
+      <video src="./img/slider.mp4" loop autoPlay muted></video>
       <h1>Borneo Grafisindo</h1>
       <div className="row">
         <button className="btn" style={{ cursor: "pointer" }}>
