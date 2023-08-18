@@ -92,6 +92,12 @@ code {
   margin-left: 1rem;
 
 }
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
 
 .x {
   margin: 0rem 1rem!important;
@@ -440,8 +446,9 @@ ul li a {
     max-width: 720px;
   }
   .navbar ul { 
-    margin-left: 0rem;
-    list-style: none;
+    height: 230px;
+    flex-direction: column;
+    text-align: center;
   }
   .col-md-4 {
     width: 55.9%!important;
@@ -549,6 +556,7 @@ ul li a {
     margin: 0;
     padding-top: 10rem;
     transform: translateX(-100%);
+    flex-direction: column;
   }
 
   .navbar ul li {

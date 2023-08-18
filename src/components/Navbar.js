@@ -90,16 +90,11 @@ function Navbar() {
                 duration={1000}
                 activeClass="active"
               >
-                Contact
+                Galeri
               </Link>
             </li>
           </ul>
-          <div className="button" onClick={openBar}>
-            <div className="burger"></div>
-            <div className="burger"></div>
-            <div className="burger"></div>
-          </div>
-        </div>
+       </div>
       </div>
     </nav>
   );

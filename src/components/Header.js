@@ -4,9 +4,7 @@ function Header() {
       <video src="./img/video.mp4" loop autoPlay muted></video>
       <h1>Borneo Grafisindo</h1>
       <div className="row">
-        <button className="btn" style={{ cursor: "pointer" }}>
-          Pemesanan
-        </button>
+      <a class="btn btn-success" href="http://pemesananborneografis.netlify.app" rel="noreferrer" target="_blank">Pemesanan</a>
       </div>
 
       <div className="headerbg"></div>
