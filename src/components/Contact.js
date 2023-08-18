@@ -122,7 +122,7 @@ function Contact() {
           <div className="card" style={{ width: '30rem', display: 'flex', margin: '30px 10px' }}>
             <img src="/img/CetakMug.jpg" className="card-img-top" alt="..." style={{ width: 'auto', height: '300px', borderRadius: '10px 20px 10px 20px', margin: '30px 20px 20px 20px' }} />
             <div className="card-body" >
-              <h5 className="card-title" style={{ margin: '50px 20px 10px 20px' }}>Mini Banner & Standing Banner</h5>
+              <h5 className="card-title" style={{ margin: '50px 20px 10px 20px' }}>Desain Mug Gelas</h5>
               <p className="card-text" style={{ margin: '10px 20px 10px 20px' }}>
                 Melayani Cetak Mini Banner & Standing Banner. Terkait ukuran bisa disesuaikan dengan kebutuhan yang diperlukan.
               </p>
@@ -130,11 +130,45 @@ function Contact() {
           </div>
         </div>
       </div>
+
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <div>
+          <div className="card" style={{ width: '30rem', display: 'flex', margin: '30px 10px' }}>
+            <img src="/img/CetakID.jpg" className="card-img-top" alt="..." style={{ width: 'auto', height: '300px', borderRadius: '10px 20px 10px 20px', margin: '30px 20px 20px 20px' }} />
+            <div className="card-body" >
+              <h5 className="card-title" style={{ margin: '50px 20px 10px 20px' }}>ID Card</h5>
+              <p className="card-text" style={{ margin: '10px 20px 10px 20px' }}>
+                Kami juga melayani percetakan ID Card sesuai dengan ukuran yang dipesan.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div className="card" style={{ width: '30rem', display: 'flex', margin: '30px 10px' }}>
+            <img src="/img/CetakDoorFrame.jpg" className="card-img-top" alt="..." style={{ width: 'auto', height: '300px', borderRadius: '10px 20px 10px 20px', margin: '30px 20px 20px 20px' }} />
+            <div className="card-body" >
+              <h5 className="card-title" style={{ margin: '50px 17px 10px 20px' }}>Door Frame Banner & Tripod Banner</h5>
+              <p className="card-text" style={{ margin: '10px 20px 10px 20px' }}>
+                Juga melayani Cetak Door Frame Banner ( Banner Gawang ) dengan berbagai bahan tersedia. Sekaligus Tripod Banner dengan desain bisa menyesuaikan + Tripod Banner. 
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div className="card" style={{ width: '30rem', display: 'flex', margin: '30px 10px' }}>
+            <img src="/img/Cetak Resin.jpg" className="card-img-top" alt="..." style={{ width: 'auto', height: '300px', borderRadius: '10px 20px 10px 20px', margin: '30px 20px 20px 20px' }} />
+            <div className="card-body">
+              <h5 className="card-title" style={{ margin: '50px 20px 10px 20px' }}>Bahan Albatros (Cetak Meteran) & Name Tag</h5>
+              <p className="card-text" style={{ margin: '10px 20px 10px 20px' }}>
+                Melayani cetak Bahan Albatros (Cetak Meteran) & Name Tag. Terkait ukuran bisa disesuaikan dengan kebutuhan yang diperlukan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       
-
-
-
-
 
     </div>
 
