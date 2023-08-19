@@ -1,31 +1,30 @@
 import { Link } from "react-scroll";
 
 function Navbar() {
-  document.addEventListener("scroll", function (e) {
-    if (window.screen.width < 768 && window.scrollY > 690) {
-      const gotop = document.querySelector(".gotop");
-      gotop.classList.add("display");
+  // document.addEventListener("scroll", function (e) {
+  //   if (window.screen.width < 768 && window.scrollY > 690) {
+  //     const gotop = document.querySelector(".gotop");
+  //     gotop.classList.add("display");
 
-      const nav = document.querySelector(".navbar");
+  //     const nav = document.querySelector(".navbar");
 
-      nav.classList.add("navopened");
-    } else if (window.screen.width > 768 && window.scrollY > 220) {
-      const gotop = document.querySelector(".gotop");
-      gotop.classList.add("display");
+  //     nav.classList.add("navopened");
+  //   } else if (window.screen.width > 768 && window.scrollY > 220) {
+  //     const gotop = document.querySelector(".gotop");
+  //     gotop.classList.add("display");
 
-      const nav = document.querySelector(".navbar");
+  //     const nav = document.querySelector(".navbar");
 
-      nav.classList.add("navopened");
-    } else {
-      const nav = document.querySelector(".navbar");
-      const gotop = document.querySelector(".gotop");
-      gotop.classList.remove("display");
-      nav.classList.remove("navopened");
-    }
-  });
+  //     nav.classList.add("navopened");
+  //   } else {
+  //     const nav = document.querySelector(".navbar");
+  //     const gotop = document.querySelector(".gotop");
+  //     gotop.classList.remove("display");
+  //     nav.classList.remove("navopened");
+  //   }
+  // });
   function openBar() {
     const bar = document.querySelector(".bar");
-
     bar.classList.toggle("opened");
   }
 
@@ -94,7 +93,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-       </div>
+        </div>
       </div>
     </nav>
   );
