@@ -120,7 +120,7 @@ code {
   top: 0;
   width: 100%;
   padding: 0.5rem;
-  background-color: transparent;
+  background-color: #010606;
   z-index: 2;
   backdrop-filter: blur(2px);
 }
