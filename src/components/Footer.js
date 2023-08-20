@@ -49,7 +49,10 @@ function Footer() {
                     <Link to="#" >bografsablonkaossatuan@gmail.com</Link>
                   </li>
                   <li>
-                    <Link to="#" >0212 444 44 44</Link>
+                    <Link to="#" >081349634000 (ADMIN 1) </Link>
+                  </li>
+                  <li>
+                    <Link to="#" >082153491771 (ADMIN 2)</Link>
                   </li>
                 </ul>
               </div>
