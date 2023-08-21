@@ -52,7 +52,7 @@ function Footer() {
                     <Link to="#" >081349634000 (ADMIN 1) </Link>
                   </li>
                   <li>
-                    <Link to="#" >082153491771 (ADMIN 2)</Link>
+                    <Link to="#" >082250965219 (ADMIN 2)</Link>
                   </li>
                 </ul>
               </div>
