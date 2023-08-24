@@ -10,9 +10,9 @@ function Services() {
             <div className="col-md-4 mb-2">
               <Card
                 className="same-size-card"
-                title="Sablon"
+                title="Sablon Satuan"
                 img="card1.png"
-                text="Broneo Grafisindo melayani jasa sablon dan pembuatan Kaos berbahan Cotton Combed"
+                text="Borneo Grafisindo melayani jasa percetakan sablon satuan"
               />
             </div>
             <div className="col-md-4 mb-2">
